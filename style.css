@@ -1,3 +1,4 @@
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -50,4 +51,57 @@ padding: 16px 12px;
     padding: 0;
     border: none;
     background: transparent;
+}
+
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:40px;
+    background-color:black;
+    color:white;
+}
+.hero-content{
+    flex:1;
+}
+.hero-content h1 {
+    font-size:60px;
+    font-weight:400;
+    line-height:1.05;
+    margin:20px 0 28px;
+}
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.hero-content > p:first-child {
+    font-size: 14px;
+    font-weight: 500;
+}
+.hero-image{
+    width:48%;
+    height:auto;
+    display:block;
+}
+.hero-actions {
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:24px;
+}
+.hero-actions a {
+    padding:12px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size:13px;
+}
+.hero-primary{
+    background-color: white;
+    color:black;
+}
+.hero-secondary{
+    background-color:#222;
+    color:white
 }
