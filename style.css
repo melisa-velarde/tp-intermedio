@@ -1,4 +1,52 @@
-button{
+body {
+    font-family: "Inter", sans-serif;
+}
+.header{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+padding: 16px 12px;
+}
+.header a{
+    color:white;
+    text-decoration: none;
+}
+.brand{
+    display:flex;
+    align-items:start;
+    gap: 8px;
+     font-size: 18px;
+}
+.navigation{
+    display:flex;
+    align-items:center;
+    gap:20px;
+     font-size: 14px;
+}
+.header-actions{
+    display:flex;
+    align-items:center;
+    gap:16px;
+     font-size: 14px;
+}
+.header-actions a{
+    padding:10px 16px;
+    border-radius:999px;
+    text-decoration:none;
+}
+.try-button{
+    background-color:#222;
+}
+.header-actions .contact-button{
+    background-color:white;
+    color:black;
+}
+
+.search-button{
+    color:white;
     padding: 0;
     border: none;
     background: transparent;
